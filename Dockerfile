@@ -5,7 +5,7 @@ MAINTAINER Ahmed Hassanien <ahmed_hassanien@otasys.com>
 ## Install wget, Software Properties Common to use add-apt-repository command and Java 8
 ## Remove unwanted applications & Clean Installations
 RUN DEBIAN_FRONTEND=noninteractive && \
-    rm /var/lib/apt/lists/* -vf && \
+    rm -rf /var/lib/apt/lists/* && \
     apt-get -yq install software-properties-common && \
     echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \
     add-apt-repository -y ppa:webupd8team/java && \
