@@ -12,7 +12,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -yq install software-properties-commo
     apt-get -yq install wget oracle-java8-installer && \
     apt-get autoremove && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/cache/oracle-jdk8-installer /var/cache/apt
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/cache/oracle-jdk8-installer /var/cache/apt /var/cache/wget /var/cache/software-properties-common
 
 # Set JAVA_HOME variable
 ENV JAVA_HOME=/usr/lib/jvm/java-8-oracle
