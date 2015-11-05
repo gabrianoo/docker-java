@@ -42,5 +42,5 @@ docker run -d --name java otasys/java
 #### How to run
 
 ```
-docker run -d --name java -p 8111:8111 otasys/java:1.8.0_66
+docker run -d --name java otasys/java:1.8.0_66
 ```
