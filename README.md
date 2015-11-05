@@ -32,7 +32,7 @@ docker run -d --name docker-java docker-java-custom
 docker run -d --name java otasys/java
 ```
 
-### Java [1.8.0_66](https://github.com/gabrianoo/docker-teamcity/releases/tag/1.8.0_66)
+### Java [1.8.0_66](https://github.com/gabrianoo/docker-java/releases/tag/1.8.0_66)
 
 #### What is inside
 
